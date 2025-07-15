@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(blue, pink);
+    color: whitesmoke;
+    font-family: "Happy Monkey", system-ui;
+    text-align: center;
+    text-shadow: 0 0 2px white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+   
+}
+p{
+    padding: 20px;
+}
+.bday{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.mainpic{
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid brown;
+    margin: 0 auto;
+}
+.age{
+    background: lightblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+    margin:10px 0 10px 0 ;
+    
+    
+}
+.year{
+    background: lightblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+}
+.hover{
+    margin-top: 40px;
+    }
+.hover-section{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.pic{
+    
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    margin: 20px auto 0;
+    
+    border: 6px solid white;
+    border-radius: 10px;
+     background-image: url("images/gift.jpg") ;
+
+    
+}
+.gif{
+    background-image: url("images/gift.jpg") ;
+}
+.gif:hover{
+    background-image: url('images/office.gif');
+    transition: all 0s ease;
+}
+
+
+.gif2:hover{
+    background-image: url('images/Happy\ Lisa\ Kudrow\ GIF\ by\ Bombay\ Softwares.gif');
+}
+.gif3:hover{
+    background-image: url('images/Own\ It\ Cbs\ GIF\ by\ Paramount+\ \(4\).gif');
+}
+.gif4:hover{
+    background-image: url('images/Keanu\ Reeves\ Walking\ GIF\ by\ John\ Wick\ Chapter\ 3\ -\ Parabellum.gif');
+    background-size: cover;
+}
+.gif5{
+    height: 200px;
+    width: 400px;
+    background-image: url('images/gift.jpg');
+    margin: 0 auto;
+    background-size: cover;
+    border: 6px solid white;
+    margin-bottom: 50px;
+}
+.gif5:hover{
+    background-image: url('images/Celebrate\ Post\ Malone\ GIF\ by\ Bud\ Light.gif');
+    background-size: cover;
+}
+.list{
+    margin-bottom: 10px;
+}
+footer{
+    
+    padding: 10px;
+    font-style: italic;
+    width: 400px;
+    margin: 0px auto 20px;
+   
+    
+}
+.target{
+    color:black;
+    text-shadow: 0 0 10px white;
+}
+
+
+
