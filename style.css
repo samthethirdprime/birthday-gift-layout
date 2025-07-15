@@ -55,7 +55,8 @@ body{
 .pic{
     
     background-size: cover;
-    width: 400px;
+    max-width: 400px;
+    width: 90%;
     height: 400px;
     margin: 20px auto 0;
     
@@ -86,7 +87,8 @@ body{
 }
 .gif5{
     height: 200px;
-    width: 400px;
+    max-width: 400px;
+    width: 90%;
     background-image: url('images/gift.jpg');
     margin: 0 auto;
     background-size: cover;
@@ -104,7 +106,8 @@ footer{
     
     padding: 10px;
     font-style: italic;
-    width: 400px;
+    max-width: 400px;
+    width: 90%;
     margin: 0px auto 20px;
    
     
