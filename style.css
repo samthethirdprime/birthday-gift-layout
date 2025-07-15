@@ -14,9 +14,7 @@ body{
     min-height: 100vh;
    
 }
-p{
-    padding: 20px;
-}
+
 .bday{
     display: flex;
     flex-direction: column;
@@ -50,7 +48,7 @@ p{
     }
 .hover-section{
     margin-bottom: 20px;
-    padding: 20px;
+   
 }
 
 .pic{
@@ -62,7 +60,7 @@ p{
     
     border: 6px solid white;
     border-radius: 10px;
-     background-image: url("images/gift.jpg") ;
+    background-image: url("images/gift.jpg") ;
 
     
 }
